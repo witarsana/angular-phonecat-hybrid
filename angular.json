@@ -22,6 +22,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/images",
+              "src/img",
+              "src/phones",
               "src/app"
             ],
             "styles": [
