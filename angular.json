@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-phonecat-hybrid"
+    }
+  },
+  "defaultProject": "angular-phonecat-hybrid",
+  "cli": {
+    "analytics": false
+  }
 }
