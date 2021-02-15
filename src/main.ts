@@ -8,9 +8,10 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 import ajsApp from './app/app.module.ajs';
+import test from './app/core/checkmark/checkmark.filter.js';
 import states from './app/app.config.ajs';
 
-states(ajsApp);
+states(ajsApp, test);
 
 setAngularJSGlobal(angular);
 
